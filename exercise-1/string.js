@@ -27,5 +27,7 @@ function snake_case(string){
 }
 
 function leet(string){
-
+    if (typeof string !== "string" || string === "") return "";
+    var monCryptage = { "A": 4, "a": 4, "E": 3, "e": 3, "I": 1, "i": 1, "O": "0", "o": 0, "U": "(_)", "u": "(_)", "Y": 7, "y": 7};
+    return string.split('').map(s => monCryptage[s] || s).join('')
 }
