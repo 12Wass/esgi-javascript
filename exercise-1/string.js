@@ -34,6 +34,9 @@ function leet(string){
 
 function verlan(string){
     if (typeof string !== "string" || string === "") return "";
-
-    return string.split('').reverse().join('');
+    
+    return chaine
+    .split(" ")
+    .map((word) => word.split("").reverse().join(""))
+    .join(" ");
 }
