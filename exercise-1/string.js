@@ -27,8 +27,5 @@ function snake_case(string){
 }
 
 function leet(string){
+
 }
-
-// leet('Cbueiaze ezabeia e zae iuzae zae azu ');
-
-console.log(camelCase("toggle case is the coolest")); 
