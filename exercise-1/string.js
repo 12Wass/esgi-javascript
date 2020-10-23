@@ -88,4 +88,4 @@ function type_check_v1(arg, type){
     return true; 
 }
 
-function type_check_v2()
+function type_check_v2(){}
