@@ -51,4 +51,3 @@ function type_check(arg, types){
     }
     return checked; 
 }
-console.log(type_check_v2("foo", {enum:["foo", "bar", 3]})); 
