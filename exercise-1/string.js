@@ -34,8 +34,7 @@ function leet(string){
 
 function verlan(string){
     if (typeof string !== "string" || string === "") return "";
-
-    return chaine
+    return string
     .split(" ")
     .map((word) => word.split("").reverse().join(""))
     .join(" ");
@@ -43,7 +42,7 @@ function verlan(string){
 
 function yoda(string){
     if (typeof string !== "string" || string === "") return "";
-    return chaine.split(" ").reverse().join(" "); 
+    return string.split(" ").reverse().join(" "); 
 }
 
 function vig(string, code){
@@ -81,3 +80,12 @@ function prop_access(obj, path){
     }
     return obj; 
 }
+
+function type_check_v1(arg, type){
+    if (typeof(arg) !== type) {
+        return false;
+    }
+    return true; 
+}
+
+function type_check_v2()
